@@ -1,0 +1,397 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+/* Navbar CSS */
+
+.menubar li {
+    margin-right: 20px;
+}
+
+.menubar li a {
+    font-weight: 500;
+    font-size: 18px;
+    color: #5E6569;
+    transition: all .7s ease-in;
+}
+
+.menubar li a:hover {
+    background-color: #EE535B;
+    border-radius: 50%;
+    color: #FFFFFF;
+}
+
+/* Header Content */
+
+.header-content {
+    margin-top: 80px;
+    margin-bottom: 70px;
+}
+
+.header-left-content h1 {
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.header-left-content h1 span {
+    font-weight: 700;
+}
+
+.header-left-content p {
+    font-size: 17px;
+    color: #5E6569;
+    margin-bottom: 40px;
+}
+
+.header-left-content a {
+    display: block;
+    background-color: #E8505B;
+    width: 200px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 15px;
+    text-decoration: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 3px;
+    transition: all .4s ease-in;
+}
+
+.header-left-content a:hover {
+    box-shadow: 5px 5px #EE9399;
+}
+
+/* Services Section */
+
+.servies-section {
+    margin-top: 150px;
+}
+
+.services-title {
+    text-align: center;
+}
+
+.services-title h3 {
+    color: #EE535B;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.services-title h1 {
+    font-weight: 800;
+    margin-bottom: 100px;
+}
+
+.Services-content-box {
+    margin: 30px 20px;
+}
+
+.Services-content-box img {
+    margin-bottom: 30px;
+}
+
+.Services-content-box h1 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.Services-content-box p {
+    font-size: 17px;
+    color: #8A9093;
+}
+
+/* About Section */
+
+.about-section {
+    margin-top: 150px;
+}
+
+.about-content h4 {
+    color: #EE535B;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.about-content h1 {
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.about-content p {
+    font-size: 18px;
+    color: #8A9093;
+    margin-bottom: 50px;
+}
+
+.about-content h2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.about-content h2 span {
+    color: #EE6C2A;
+    margin-left: 15px;
+}
+
+.about-box {
+    background-color: #EE535B;
+    border-radius: 10px;
+    padding-top: 13px;
+}
+
+.about-download-box {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.about-download-box h1 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.bdr {
+    border-right: 2px solid #FFFFFF;
+}
+
+/* Work Section */
+
+.work-section {
+    margin-top: 150px;
+}
+
+.work-content-box {
+    margin-top: 50px;
+}
+
+.work-content-box h3 {
+    color: #EE535B;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.work-content-box h1 {
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.work-content-box p {
+    font-size: 16px;
+    color: #8A9093;
+    margin-bottom: 50px;
+}
+
+.work-content-box a {
+    display: block;
+    background-color: #E8505B;
+    width: 200px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 15px;
+    text-decoration: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 3px;
+    transition: all .4s ease-in;
+}
+
+.work-content-box a:hover {
+    box-shadow: 5px 5px #EE9399;
+}
+
+/* Contactless Section */
+
+.Contactless-section {
+    margin-top: 150px;
+}
+
+.Contactless-content-box {
+    margin-top: 90px;
+}
+
+.Contactless-content-box h3 {
+    color: #EE535B;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.Contactless-content-box h1 {
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.Contactless-content-box p {
+    font-size: 16px;
+    color: #8A9093;
+    margin-bottom: 50px;
+}
+
+/* Testimonial Section */
+
+.testimonial-section{
+    margin-top: 150px;
+}
+
+.testimonial-title{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.testimonial-title h4{
+    color: #EE535B;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.testimonial-title h1{
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.tes-content-box{
+    border: 1px solid rgba(126, 126, 126, .3);
+    border-radius: 10px;
+    margin-bottom: 40px;
+    transition: all .5s ease-in-out;
+}
+
+.tes-content-box:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+}
+
+.tes-icon-box{
+    color: #E96A20;
+    font-size: 15px;
+    margin: 20px;
+}
+
+.tes-content-box p{
+    margin: 20px;
+    font-size: 19px;
+    color: #5E6569;
+}
+
+.tes-profile{
+    margin: 40px 20px;
+    display: flex;
+}
+
+.tes-profile img{
+    height: 60%;
+    margin-right: 10px;
+}
+
+.tes-profile-content h3{
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+
+.tes-profile-content p{
+    font-size: 15px;
+    color: #5E6569;
+    margin: 0px;
+}
+
+.ena, .jhon{
+    margin-top: 50px;
+}
+
+/* Partner Section */
+
+.partner-section{
+    margin-top: 150px;
+}
+
+.partner-section img{
+    filter: opacity(50%);
+    transition: all 2s ease-in-out;
+}
+
+.partner-section img:hover{
+    filter: opacity(100%);
+}
+
+/* Footer Section */
+
+.footer-section{
+    margin-top: 150px;
+    background-color: #263238;
+}
+
+.footer-box1{
+    margin: 100px 0px;
+}
+
+.footer-box1 img{
+    margin-bottom: 30px;
+}
+
+.footer-app-box{
+    display: flex;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    background-color: #374248;
+    margin-bottom: 20px;
+    width: 80%;
+    transition: all 1s ease-in-out;
+}
+
+.footer-app-box:hover{
+    background-color: #E8505B;
+}
+
+.footer-app-box i{
+    color: #FFFFFF;
+    font-size: 40px;
+    margin: 20px 20px 25px 30px;
+}
+
+.footer-app-box p{
+    margin: 20px 20px 0px 0px;
+    color: #C3C4BD;
+    font-size: 12px;
+}
+
+.footer-app-box h4{
+    margin: 0px 20px 25px 0px;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.footer-box2{
+    margin: 100px 0px;
+}
+
+.footer-box2 h1{
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.footer-box2 ul{
+    list-style: none;
+}
+
+.footer-box2 li a{
+    display: block;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 600;
+    margin-bottom: 5px;
+    transition: all .5s ease-in-out;
+}
+
+.footer-box2 li a:hover{
+    color: #E8505B;
+}
